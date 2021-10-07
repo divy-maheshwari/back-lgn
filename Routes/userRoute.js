@@ -46,7 +46,7 @@ router.post('/signIn',(req,res) => {
 }); 
 
 router.get('/home',isAuth,(req,res) => {
-  console.log(req.body);
+ // console.log(req.body);
   res.json(req.body);
 });
 module.exports = router;

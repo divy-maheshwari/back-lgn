@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 
-app.use('/api/user',require('./routes/userRoute'))
+app.use('/api/user',require('./Routes/userRoute'))
 app.use('/',(req,res) => {
     res.send("welcome divy");
 })
